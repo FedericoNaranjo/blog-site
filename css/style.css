@@ -10,16 +10,11 @@ html, body{
 	font-family:OpenSans-Regular;
 }
 @font-face{
-   font-family:LobsterTwo-Regular;
-	 src: url(../fonts/LobsterTwo-Regular.ttf) format('truetype');
+   font-family: 'Cormant Garamond', serif;
 }
 @font-face{
    font-family:OpenSans-Regular;
 	 src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
-}
-@font-face{
-   font-family:LobsterTwo-Italic;
-	 src: url(../fonts/LobsterTwo-Italic.ttf) format('truetype');
 }
 p{
 	margin:0;
@@ -53,7 +48,7 @@ a.navbar-brand:hover {
 	text-decoration: none;
 }
 .navbar-nav {
-  margin: 0 0 0 5em;
+  margin: 0 0 0 18.2em;
 }
 .navbar-default .navbar-nav > li > a {
   color: #777;
