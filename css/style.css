@@ -1688,7 +1688,7 @@ p.lom{
   display: inline-block;
 }
 .single-page-artical {
-  min-height: 2280px;
+  min-height: 0px;padding-bottom: 75px;
 }
 .navbar-collapse {
   padding-right: 0;
@@ -1775,7 +1775,7 @@ p.lom{
 		width: 50%;
 	}
 	.single-page-artical {
-	  min-height: 2210px;
+	  min-height: 0px;padding-bottom: 75px;
 	}
 	.contact-right p.phn {
 		font-size: 2em;
@@ -1938,7 +1938,7 @@ p.lom{
 	  width: 70%;
 	}
 	.single-page-artical {
-	  min-height: 2125px;
+	  min-height: 0px;padding-bottom: 75px;
 	}
 	.footer-grd img {
 	  width: 100%;
@@ -2106,7 +2106,8 @@ p.lom{
 	  padding: 0.5em 11em;
 	}
 	.single-page-artical {
-	  min-height: 2100px;
+	  min-height: 0px;
+        padding-bottom: 75px;
 	}
 	.table-form textarea,.table-form form input[type="text"] {
 		font-size: 14px;

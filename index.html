@@ -7,19 +7,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Google Fonts -->
-    <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Font+Name">
-    <!-- Font Awesome -->
-    <link href="res/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<title>Hallowed Hog Satirical Newspaper</title>
+    <!-- meta data for website -->
+    <title>Hallowed Hog Satirical Newspaper</title>
     <meta property="og:site_name" content="hallowedhog.com"/>
     <meta property="og:title" content="Carleton's Satrical Newspaper"/>
-    <meta property="og:description" content="Carleton University's only student run satirical newspaper"/>
+    <meta property="og:description" content="Carleton University's only student satirical news source"/>
     <meta property="og:image" content="http://hallowedhog.com/images/mascot.jpg">
     <meta property="og:url" content="http://hallowedhog.com">
     <meta property="og:type" content="article"/>
+    <!-- //meta data -->
+    
+    
+<!-- ************************************************* -->
+            <!-- this goes into header.html -->    
+    
+    <!-- StyleSheets -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Font+Name">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    
+    <!-- Font Awesome -->
+    <link href="res/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,8 +38,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
     
 <!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -58,8 +64,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="banner-body">
 		<div class="container">
             
-<!-- copy this into all pages until I can figure out how to import -->
-
 <!-- HEADER -->
 			<div class="header">
 				<div class="header-nav">
@@ -80,9 +84,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						 <ul class="nav navbar-nav">
 							<li class="hvr-bounce-to-bottom active"><a href="categories/carleton.html">Carleton</a></li>
-							<li class="hvr-bounce-to-bottom"><a href="categories/public.html">Public</a></li>
 							<li class="hvr-bounce-to-bottom"><a href="categories/politics.html">Politics</a></li>
 							<li class="hvr-bounce-to-bottom"><a href="categories/culture.html">Culture</a></li>
+                            <li class="hvr-bounce-to-bottom"><a href="categories/public.html">Public</a></li>
 							<li class="hvr-bounce-to-bottom"><a href="categories/sports.html">Sports</a></li>
                             <li class="hvr-bounce-to-bottom"><a href="categories/comics.html">Comics</a></li>
 						  </ul>
@@ -101,25 +105,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 <!-- //HEADER -->
             
+        <!-- //<this goes into header.html -->   
+<!-- ************************************************* -->
+            
+            
 <!-- header-bottom -->
 	<div class="header-bottom">
-		<div class="header-bottom-top">
-            
+
+        <!-- social media links -->
+        <div class="header-bottom-top">
             <ul class="list-inline banner-social-buttons"> 
-                    <li>
-                        <a href="https://facebook.com" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i></a>
-                    </li>            
-                </ul>
+                <li>
+                    <a href="https://www.facebook.com/TheHallowedHog/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/thehogcu" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i></a>
+                </li>            
+            </ul>
 		</div>
+        <!-- //social media links -->
+        
 		<div class="clearfix"> </div>
         
-<!-- banner -->
+        <!-- banner -->
 		<div class="banner">
             
-<!-- Slider-starts-Here -->
+        <!-- Slider-starts-Here -->
 				<script src="js/responsiveslides.min.js"></script>
 				 <script>
 				    // You can also use "$(window).load(function() {"
@@ -426,28 +437,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 <!-- //banner-body -->
+
     
+<!-- ************************************************** -->
+            <!-- <this goes into footer.html -->   
+
 <!-- FOOTER -->
 	<div class="footer">
 		<div class="container">
 			<div class="footer-grids">
 				
 				<div class="col-md-3 footer-grid">
-					<h3>voluptas assumenda</h3>
+					<h3>Explore the Hog</h3>
+					<ul>
+						<li><a href="categories/carleton.html">Carleton</a></li>
+						<li><a href="categories/politics.html">Politics</a></li>
+						<li><a href="categories/culture.html">Culture</a></li>
+					</ul>
+				</div>
+                
+				<div class="col-md-3 footer-grid">
+                    <h3>&nbsp;</h3> <!-- non-breaking space for alignment purposes -->
+					<ul>
+						<li><a href="categories/public.html">Public</a></li>
+						<li><a href="categories/sports.html">Sports</a></li>
+						<li><a href="categories/comics.html">Comics</a></li>
+					</ul>
+				</div>
+                <div class="col-md-3 footer-grid">
+                    <h3>&nbsp;</h3> <!-- non-breaking space for alignment purposes -->
 					<ul>
 						<li><a href="archives/archives.html">Archives</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
-						<li><a href="">deserunt mollitia</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 footer-grid">
-					<h3>deserunt mollitia</h3>
-					<ul>
-						<li><a href="#">doloribus asperiores</a></li>
-						<li><a href="#">Itaque earum rerum</a></li>
-						<li><a href="#">deserunt mollitia</a></li>
-					</ul>
-				</div>
+                
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -462,6 +486,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"> </script>
 <!-- //for bootstrap working -->
-    
+
+        <!-- //<this goes into footer.html -->   
+<!-- ************************************************** -->
 </body>
 </html>
