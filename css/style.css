@@ -26,9 +26,10 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+
 /*-- banner-body --*/
 .banner-body{
-	padding:6em 0 0;
+	padding:3em 0 0;
 	background:url(../images/pattern.jpg) 0px 0px;
 	min-height:600px;
 }
@@ -569,7 +570,7 @@ a.sint:before{
 /*-- //banner-bottom --*/
 /*-- blog --*/
 .blog{
-	margin:3em 0;
+	margin:0 0;
 }
 .blog-left{
 	float:left;
@@ -583,6 +584,7 @@ a.sint:before{
 	float:left;
 	width:80%;
 	margin-bottom: 3em;
+    max-height: 40px;
 }
 .blog-left-grid-left h3{
 	font-size: 25px;
@@ -1556,7 +1558,7 @@ p.lom{
 	color: #C34C21;
 	text-align: left;
 	text-transform: capitalize;
-	padding: 3em 0 1.5em;
+	padding: 1.2em 0 0 0;
 	font-size:2em;
 	margin: 0;
 	font-family: LobsterTwo-Regular;
@@ -1688,7 +1690,9 @@ p.lom{
   display: inline-block;
 }
 .single-page-artical {
-  min-height: 0px;padding-bottom: 75px;
+  min-height: 0px;
+  padding-bottom: 75px;
+  padding-top: 10px;
 }
 .navbar-collapse {
   padding-right: 0;
@@ -1824,10 +1828,10 @@ p.lom{
 }
 @media (max-width:991px){	
 	.navbar-nav {
-	  margin: 0.6em 0 0 1em;
+	  margin: 0.6em 0 0 10em;
 	}
 }
-@media (max-width:768px){
+@w (max-width:768px){
 	a.navbar-brand {
 		font-size: 2.8em;
 	}
